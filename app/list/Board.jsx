@@ -11,7 +11,7 @@ const Board = ({ id, title, content }) => {
         <p>{content}</p>
       </Link>
       <div>
-        <Link href={"/list"} className={styles.editButton}>
+        <Link href={`/edit/${id}`} className={styles.editButton}>
           수정하기📝
         </Link>
       </div>
