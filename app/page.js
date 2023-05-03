@@ -6,5 +6,16 @@ export default async function Home() {
   const db = (await connectDB).db("board")
   const result = await db.collection("post").find().toArray()
 
-  return <></>
+  let name = "Update 중입니다.💪"
+  return (
+    <>
+      <div>
+        <h2 className={styles.title}>홈화면🏡</h2>
+        <p className={styles.titleSub}>
+          {" "}
+          <del>{name}</del>
+        </p>
+      </div>
+    </>
+  )
 }
