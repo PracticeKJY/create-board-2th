@@ -1,0 +1,7 @@
+.listBg {
+  margin: 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

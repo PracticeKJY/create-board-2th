@@ -1,0 +1,48 @@
+.listItem {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 766px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+
+.listItemContainer {
+  margin-bottom: 20px;
+}
+
+.listItem h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.listItem h4:hover {
+  color: rgb(197, 4, 4);
+  transition: 0.5s;
+}
+
+.listItem p {
+  font-size: 0.85rem;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.listItem p:hover {
+  color: rgb(197, 4, 4);
+  transition: 0.5s;
+}
+
+.editButton {
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.editButton:hover {
+  color: rgb(197, 4, 4);
+}
