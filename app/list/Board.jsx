@@ -6,7 +6,7 @@ import styles from "./Board.module.css"
 const Board = ({ id, title, content }) => {
   return (
     <li className={styles.listItem} key={id}>
-      <Link href={"/"} className={styles.listItemContainer}>
+      <Link href={`/detail/${id}`} className={styles.listItemContainer}>
         <h4>{title}</h4>
         <p>{content}</p>
       </Link>
