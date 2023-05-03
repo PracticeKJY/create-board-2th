@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className={styles.navBar}>
         <Link href="/">
-          <Image src={boardLogo} alt="로고" />
+          <Image priority={true} src={boardLogo} alt="로고" />
         </Link>
         <ul className={styles.navList}>
           <HeaderList href={"/"} text={"Home"} />
