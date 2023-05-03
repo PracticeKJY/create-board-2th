@@ -1,0 +1,23 @@
+.navBar {
+  /* background: linear-gradient(to right, #005aa7, #fffde4); */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.08);
+}
+
+.navList a {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-right: 60px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
