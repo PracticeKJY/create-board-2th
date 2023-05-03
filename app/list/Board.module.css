@@ -46,3 +46,9 @@
 .editButton:hover {
   color: rgb(197, 4, 4);
 }
+
+.deleteButton {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+}
