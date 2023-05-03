@@ -1,11 +1,9 @@
-import { connectDB } from "@/util/db"
+import connectDB from "@/util/db"
 
 const handler = async (req, res) => {
-  console.log(req.body)
-
   if (req.method === "POST") {
-    if (req.body.title == "") {
-      return res.status(500).json("제목써라")
+    if (req.body.title === "") {
+      return res.status(500).json("제목을 적어주세요")
     }
     try {
       const db = (await connectDB).db("board")

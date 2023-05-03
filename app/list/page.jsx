@@ -1,4 +1,4 @@
-import { connectDB } from "@/util/db"
+import connectDB from "@/util/db"
 import styles from "./List.module.css"
 import ListItem from "./ListItem"
 

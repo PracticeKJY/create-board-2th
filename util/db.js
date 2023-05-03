@@ -14,4 +14,4 @@ if (process.env.NODE_ENV === "development") {
 } else {
   connectDB = new MongoClient(url, options).connect()
 }
-export { connectDB }
+export default connectDB
