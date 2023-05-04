@@ -11,7 +11,7 @@ const handler = async (req, res) => {
         .collection("post")
         .deleteOne({ _id: new ObjectId(req.body) })
       console.log("삭제되었습니다")
-      res.redirect(302, "/list")
+      res.status(200).json()
     } catch (error) {
       console.log(error)
     }
