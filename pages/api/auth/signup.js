@@ -7,7 +7,7 @@ const handler = async (req, res) => {
     req.body.password = hash
 
     const db = (await connectDB).db("board")
-    const result = await db.collection("post").insertOne(req.body)
+    const result = await db.collection("user_cred").insertOne(req.body)
     console.log(result)
     res.redirect(302, "/")
   }
