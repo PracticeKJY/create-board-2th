@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Next.js로 웹서비스 만들기](https://codingapple.com/course/next-js/)
 
-## Getting Started
+## Part2
 
-First, run the development server:
+- [x] 1. 설치/ mongoDB 세팅
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [x] 2. 글 목록 조회기능 만들기(DB 데이터 출력)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - POST
+  - map()
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [x] 3. 상세페이지 만들기
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+  - Dynamic route
+  - useRouter()
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [x] 4. 글 작성기능 만들기
 
-## Learn More
+  - create server
+  - POST
+  - mongoDB] insertOne()
 
-To learn more about Next.js, take a look at the following resources:
+- [x] 5. 수정기능 만들기
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - create server
+  - POST
+  - mongoDB] UpdateOne()
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [x] 6. 삭제기능 만들기
 
-## Deploy on Vercel
+  - create server
+  - ajax (fetch() , POST)
+  - mongoDB] deleteOne()
+  - query string (GET)
+  - URL parameter (GET)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] 7. 회원기능 만들기
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - create server
+  - signUp, signIn, singOut 구현
+  - NextAuth
+  - OAuth (Github)
+  - session (mongodb-adapter)
+  - getServerSession()
+  - 조건부 렌더링
+  - Credentials provider을 통한 이메일/비밀번호 회원기능 + JWT 구현
+
+- [x] 8. 댓글기능 만들기
+
+  - useState, useEffect
+  - create server
+  - ajax(fetch())
+  - query string
+  - map()
+
+- [ ] 9. 로딩,에러 처리 페이지 만들기
+
+- [ ] 10. 배포
+
+- [ ] 11. 이미지 업로드
